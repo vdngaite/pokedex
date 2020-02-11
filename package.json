@@ -1,0 +1,36 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "A GraphQL Backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node app.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "author": "DSE",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "bcrypt": "^3.0.7",
+    "cfenv": "^1.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "fs": "0.0.1-security",
+    "graphql": "^14.5.8",
+    "nodemon": "^2.0.1",
+    "prettier": "^1.19.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "eslint": "^6.7.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
